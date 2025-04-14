@@ -29,7 +29,7 @@ To get started with a challenge:
 
 | Title                           | Description                                                                | Link                                                        |
 |---------------------------------|----------------------------------------------------------------------------|-------------------------------------------------------------|
-| Hello World API                 | Develop a basic REST API that returns "Hello, World!"                      | [Link](./challenges/beginner/hello-world-api.md)            |
+| Hello World API                 | Develop a basic REST API that returns "Hello, World!"                      | [Link]([./challenges/beginner/hello-world-api.md](https://github.com/Khamull/backend-challenges/blob/Backend-Challenge---Hello-World-API/challenges/beginner/api-hello-world.md))            |
 | Echo API                        | Build an API that echoes back data sent via POST requests                  | [Link](./challenges/beginner/echo-api.md)                   |
 | Number Generator Service        | Develop an API that returns a random number                                | [Link](./challenges/beginner/service-number-generator.md)   |
 | Palindrome Checker Service      | Build an API to check if a string is a palindrome                          | [Link](./challenges/beginner/service-palindrome-checker.md) |
