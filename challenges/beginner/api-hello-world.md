@@ -47,3 +47,43 @@ After completing the basic "Hello World" API challenge, consider these improveme
 By completing this challenge and exploring possible improvements, you will gain valuable experience in backend development practices and be better prepared for more complex API projects.
 
 Happy coding!
+
+## ✅ What I Did
+
+- Implemented the project in **C#** using **ASP.NET Core Web API**.
+- Used **Controllers** and **Swagger/OpenAPI** for clean endpoint structure and documentation.
+- Set up the following endpoints:
+  - `GET /` – Returns `"Hello, World!"`
+  - `GET /hello/{name}` – Returns `"Hello, {name}!"` with error handling for empty or invalid names.
+- Integrated **logging** to record all incoming requests and the response status.
+- Automatically generates and serves interactive API documentation using **Swagger UI** in development mode.
+
+---
+
+## ▶️ How to Run
+
+### Prerequisites
+
+- [.NET SDK 8+](https://dotnet.microsoft.com/en-us/download)
+- Visual Studio 2022+ or Visual Studio Code
+
+### Steps
+
+1. **Clone the repository and switch to the correct branch**:
+   ```bash
+   git clone https://github.com/Khamull/backend-challenges.git
+   cd backend-challenges
+   git checkout hello-world
+2. Restore dependencies and run the project:
+
+dotnet restore
+dotnet run
+Access the API:
+
+Visit http://localhost:5000/swagger for the Swagger UI.
+
+Send requests to:
+
+GET / → Returns "Hello, World!"
+
+GET /hello/{name} → Returns "Hello, {name}!"
